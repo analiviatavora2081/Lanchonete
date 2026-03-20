@@ -1,13 +1,18 @@
-package Model;
+package model;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class Hamburguer {
+public class Hamburquer {
 
+    private ArrayList<String> ingredientes;
 
-    private  ArrayList<String> ingredientes;
+    public Hamburguer(ArrayList<String> ingredientes) {
+        this.ingredientes = ingredientes;
+    }
 
-    public HamburguerArrayList<String>
+    public ArrayList<String> getIngredientes() {
+        return ingredientes;
+    }
 
-}
+    public void setIngredientes(ArrayList<String> ingredientes) {
+        this.ingredientes = ingredientes;

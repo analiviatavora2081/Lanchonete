@@ -16,14 +16,11 @@ public class Main {
         IngredientesList.add("chedar");
 
         Cliente cliente= new Cliente("Ana", "Tavora");
-        Hamburguer simples = new Hamburguer("pao", "queijo","amburg", "cebola");
+        Hamburguer simples = new Hamburguer(ingredientesList);
 
         Pedido pedido1 = new Pedido(cliente, simples);
 
-    System.out.println(pedido1.getCliente().getNomeInteiro());
-    System.out.println(pedido1. getLanche().getIngrediente());
-    System.out.println(pedido1.getstatus());
-
+    System.out.println(hamburguer.getIngredientes());
     }
 }
 
